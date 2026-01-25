@@ -84,3 +84,71 @@ Meshy 4 を使えばダウンロードできるが、生成結果は以下の通
 まぁ、最悪リギングは自分でやるという選択肢もあるとは思う
 
 ちなみに、今回全部 A ポーズだが、これは無料会員だから。有料会員なら T ポーズも選べる（が、試せてないからもしかしたら T だとうまくいかないとかはあるやも）
+
+![](./images/meshy6-9.png)
+![](./images/meshy6-10.png)
+
+さらに余談だが、1万ポリゴンのモデル見た感じかなり厳しい角の落とし方をしてたのでそれが原因かもしれない。もしかしたらサブディビジョン系は Blender に任せた方がいいかもしれない
+
+## Tripo AI
+
+試そうとしたら元々アカウントを作ってたので昔作ったのはこっちのアカウントかもしれない
+
+まずは自動生成から
+
+![](./images/tripo1.png)
+![](./images/tripo2.png)
+![](./images/tripo3.png)
+
+素体はかなり綺麗な印象
+
+![](./images/tripo4.png)
+![](./images/tripo5.png)
+![](./images/tripo6.png)
+![](./images/tripo7.png)
+![](./images/tripo8.png)
+![](./images/tripo9.png)
+![](./images/tripo10.png)
+![](./images/tripo11.png)
+
+テクスチャはかなりフィギュアっぽいテカテカな見た目だが、ポリゴン数は Meshy 6 と同じくらい
+
+テカテカが気になったのでポリゴン数を試しに10万まで落としてみた
+
+![](./images/tripo12.png)
+![](./images/tripo13.png)
+![](./images/tripo14.png)
+![](./images/tripo15.png)
+![](./images/tripo16.png)
+
+見た目はかなり滑らかになった一方でテクスチャにやや崩れが見られる（手動修正で許容できるレベル）
+
+![](./images/tripo17.png)
+![](./images/tripo18.png)
+![](./images/tripo19.png)
+![](./images/tripo20.png)
+
+素体も綺麗な割り当てがされてそう
+
+次は Meshy 6 でリギング可能だった 1万ポリゴンまで落としてみる
+
+![](./images/tripo21.png)
+![](./images/tripo22.png)
+![](./images/tripo23.png)
+![](./images/tripo24.png)
+![](./images/tripo25.png)
+![](./images/tripo26.png)
+![](./images/tripo27.png)
+
+ぱっと見 Meshy 6 の 1万ポリゴンよりもポリゴンの削除の仕方が理想に近く好印象
+
+破綻こそあれど、ありかなと思った
+
+こちらもリギングができそうだったが、 Meshy で比較できないためにやめた
+
+ちなみに、こちらではフリープランでも DL できたので models フォルダ配下に保存している（660Kは大きすぎて GHE の lfs を使う必要があったのでやめた）
+
+差分があるなら Meshy は .blend 出力ができるが、 Tripo は .fbx でしかいけないことか
+
+だが、 Blender ライクな出力をしてくれるので結局これを編集すればよさそうというのが結論でもある
+
