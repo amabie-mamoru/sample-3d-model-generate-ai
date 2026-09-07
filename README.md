@@ -9,6 +9,7 @@
 検証日|ディレクトリ|概要
 ---|---|---
 2026/01/25|[2026-01-25-free](./2026-01-25-free/README.md)|無料枠での Meshy / Tripo AI / Rodin の比較検証
+2026/09/07|[2026-09-07-pro-or-creator](./2026-09-07-pro-or-creator/README.md)|有料プラン(Pro/Creator)での Tripo AI / Rodin / Meshy の比較検証(作成中)
 
 ## ディレクトリ構成
 
