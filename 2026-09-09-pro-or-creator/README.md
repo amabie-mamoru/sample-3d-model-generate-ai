@@ -9,11 +9,10 @@
 
 ## 比較AI
 
-有料プラン(Pro/Creatorなど)での検証。現時点では Tripo AI のみ画像を配置済み。Rodin / Meshy は追って追加予定
+有料プラン(Pro/Creatorなど)での検証
 
-- Tripo AI
-- Rodin (追加予定)
-- Meshy (追加予定)
+- Tripo 3D
+- Rodin 3D
 
 ## サンプル画像
 
@@ -57,7 +56,7 @@ ChatGPT Images 2.0 で今回の画像を生成するのに 5 試行
 
 ChatGPT Images 2.0 で今回の画像を生成するのに 1 試行
 
-## Tripo AI
+## Tripo 3D
 
 ### 前提
 
@@ -86,6 +85,10 @@ Front|Left|Back|Right|Oblique1|Oblique2
 <img src="./images/tripo-building-zoomup-back.png">
 <img src="./images/tripo-building-zoomup-top.png">
 
+Topology: Quad
+Faces: 5,055
+Vertices: 5,867
+
 ### Humanoid
 
 #### 4 views + oblique
@@ -100,6 +103,10 @@ Front|Left|Back|Right|Oblique1|Oblique2
 <img src="./images/tripo-humaroid-zoomup-bag.png">
 <img src="./images/tripo-humaroid-zoomup-eyes.png">
 <img src="./images/tripo-humaroid-zoomup-ribbon.png">
+
+Topology: Quad
+Faces: 6,261
+Vertices: 5,755
 
 ### Item
 
@@ -116,7 +123,11 @@ Front|Left|Back|Right|Oblique1|Oblique2
 <img src="./images/tripo-item-zoomup-bell-string.png">
 <img src="./images/tripo-item-zoomup-texture.png">
 
-## Rodin AI
+Topology: Quad
+Faces: 5,626
+Vertices: 5,287
+
+## Rodin 3D
 
 ### 前提
 
@@ -126,58 +137,31 @@ Image to 3D で三面図をアップロードし、アップロードした画�
 
 その後、必要に応じて Private にした上で、AI モデル Gen-2.5 の Extreme-High（時間がかかるが高品質）が現状 x1 コストなのでこれで生成する
 
-### Building
+<img src="./images/rodin-setup-direction.png">
+<img src="./images/rodin-humaroid-setup-model.png">
+<img src="./images/rodin-humaroid-setup-mirror.png">
+<img src="./images/rodin-humaroid-setup-texture.png">
+<img src="./images/rodin-humaroid-setup-export.png">
 
-### Humaroid
+また、確認は基本 Blender で行っている
 
-### Item
-
-## Meshy AI
-
-(追加予定)
-
-### 前提
-
-#### 生成手順
+なぜなら、 Rodin 3D のプレビューが軸を使った真正面などの表現ができず、ズームにも制限があったりでモデルを直接みないと確認できない点が多かったためである
 
 ### Building
 
-#### Wireframe
-
-説明|見た目
----|---
-
-#### Texture
-
-説明|見た目
----|---
-
-#### その他
+Topology: Quad
+Faces: 46,076
+Vertices: 61,071
 
 ### Humaroid
 
-#### Wireframe
-
-説明|見た目
----|---
-
-#### Texture
-
-説明|見た目
----|---
-
-#### その他
+Topology: Quad
+Faces: 46,380
+Vertices: 55,640
 
 ### Item
 
-#### Wireframe
+Topology: Quad
+Faces: 46,802
+Vertices: 52,259
 
-説明|見た目
----|---
-
-#### Texture
-
-説明|見た目
----|---
-
-#### その他
