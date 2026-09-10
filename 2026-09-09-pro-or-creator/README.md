@@ -149,17 +149,58 @@ Image to 3D で三面図をアップロードし、アップロードした画�
 
 ### Building
 
+#### 4 views + oblique
+
+Front|Left|Back|Right|Oblique1|Oblique2
+---|---|---|---|---|---
+<img src="./images/rodin-building-wireframe-front.png">|<img src="./images/rodin-building-wireframe-left.png">|<img src="./images/rodin-building-wireframe-back.png">|<img src="./images/rodin-building-wireframe-right.png">|<img src="./images/rodin-building-wireframe-oblique1.png">|<img src="./images/rodin-building-wireframe-oblique2.png">
+<img src="./images/rodin-building-texture-front.png">|<img src="./images/rodin-building-texture-left.png">|<img src="./images/rodin-building-texture-back.png">|<img src="./images/rodin-building-texture-right.png">|<img src="./images/rodin-building-texture-oblique1.png">|<img src="./images/rodin-building-texture-oblique2.png">
+
+#### その他（ズームして見た場合）
+
+<img src="./images/rodin-building-zoomup-door.png">
+<img src="./images/rodin-building-zoomup-grass.png">
+<img src="./images/rodin-building-zoomup-sign.png">
+
 Topology: Quad
 Faces: 46,076
 Vertices: 61,071
 
 ### Humaroid
 
+#### 4 views + oblique
+
+Front|Left|Back|Right|Oblique1|Oblique2
+---|---|---|---|---|---
+<img src="./images/rodin-humaroid-wireframe-front.png">|<img src="./images/rodin-humaroid-wireframe-left.png">|<img src="./images/rodin-humaroid-wireframe-back.png">|<img src="./images/rodin-humaroid-wireframe-right.png">|<img src="./images/rodin-humaroid-wireframe-oblique1.png">|<img src="./images/rodin-humaroid-wireframe-oblique2.png">
+<img src="./images/rodin-humaroid-texture-front.png">|<img src="./images/rodin-humaroid-texture-left.png">|<img src="./images/rodin-humaroid-texture-back.png">|<img src="./images/rodin-humaroid-texture-right.png">|<img src="./images/rodin-humaroid-texture-oblique1.png">|<img src="./images/rodin-humaroid-texture-oblique2.png">
+
+#### その他（ズームして見た場合）
+
+<img src="./images/rodin-humaroid-zoomup-bag.png">
+<img src="./images/rodin-humaroid-zoomup-cloth.png">
+<img src="./images/rodin-humaroid-zoomup-face-mesh.png">
+<img src="./images/rodin-humaroid-zoomup-face-texture.png">
+<img src="./images/rodin-humaroid-zoomup-hand.png">
+
 Topology: Quad
 Faces: 46,380
 Vertices: 55,640
 
 ### Item
+
+#### 4 views + oblique
+
+Front|Left|Back|Right|Oblique1|Oblique2
+---|---|---|---|---|---
+<img src="./images/rodin-item-wireframe-front.png">|<img src="./images/rodin-item-wireframe-left.png">|<img src="./images/rodin-item-wireframe-back.png">|<img src="./images/rodin-item-wireframe-right.png">|<img src="./images/rodin-item-wireframe-oblique1.png">|<img src="./images/rodin-item-wireframe-oblique2.png">
+<img src="./images/rodin-item-texture-front.png">|<img src="./images/rodin-item-texture-left.png">|<img src="./images/rodin-item-texture-back.png">|<img src="./images/rodin-item-texture-right.png">|<img src="./images/rodin-item-texture-oblique1.png">|<img src="./images/rodin-item-texture-oblique2.png">
+
+#### その他（ズームして見た場合）
+
+<img src="./images/rodin-item-zoomup-back-string.png">
+<img src="./images/rodin-item-zoomup-bell1.png">
+<img src="./images/rodin-item-zoomup-bell2.png">
 
 Topology: Quad
 Faces: 46,802
