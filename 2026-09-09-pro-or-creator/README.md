@@ -88,9 +88,33 @@ Front|Left|Back|Right|Oblique1|Oblique2
 
 ### Humanoid
 
+#### 4 views + oblique
+
+Front|Left|Back|Right|Oblique1|Oblique2
+---|---|---|---|---|---
+<img src="./images/tripo-humaroid-wireframe-front.png">|<img src="./images/tripo-humaroid-wireframe-left.png">|<img src="./images/tripo-humaroid-wireframe-back.png">|<img src="./images/tripo-humaroid-wireframe-right.png">|<img src="./images/tripo-humaroid-wireframe-oblique1.png">|<img src="./images/tripo-humaroid-wireframe-oblique2.png">
+<img src="./images/tripo-humaroid-texture-front.png">|<img src="./images/tripo-humaroid-texture-left.png">|<img src="./images/tripo-humaroid-texture-back.png">|<img src="./images/tripo-humaroid-texture-right.png">|<img src="./images/tripo-humaroid-texture-oblique1.png">|<img src="./images/tripo-humaroid-texture-oblique2.png">
+
+#### その他（ズームして見た場合）
+
+<img src="./images/tripo-humaroid-zoomup-bag.png">
+<img src="./images/tripo-humaroid-zoomup-eyes.png">
+<img src="./images/tripo-humaroid-zoomup-ribbon.png">
 
 ### Item
 
+#### 4 views + oblique
+
+Front|Left|Back|Right|Oblique1|Oblique2
+---|---|---|---|---|---
+<img src="./images/tripo-item-wireframe-front.png">|<img src="./images/tripo-item-wireframe-left.png">|<img src="./images/tripo-item-wireframe-back.png">|<img src="./images/tripo-item-wireframe-right.png">|<img src="./images/tripo-item-wireframe-oblique1.png">|<img src="./images/tripo-item-wireframe-oblique2.png">
+<img src="./images/tripo-item-texture-front.png">|<img src="./images/tripo-item-texture-left.png">|<img src="./images/tripo-item-texture-back.png">|<img src="./images/tripo-item-texture-right.png">|<img src="./images/tripo-item-texture-oblique1.png">|<img src="./images/tripo-item-texture-oblique2.png">
+
+#### その他（ズームして見た場合）
+
+<img src="./images/tripo-item-zoomup-back-string.png">
+<img src="./images/tripo-item-zoomup-bell-string.png">
+<img src="./images/tripo-item-zoomup-texture.png">
 
 ## Rodin AI
 
